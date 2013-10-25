@@ -12,13 +12,13 @@ My OS X setup. Special thanks to whoever I stole it from.
 
 1. Clone this repository into your home folder
 
-        git clone git@github.com:AlexanderEkdahl/dotfiles.git
+        git clone https://github.com/AlexanderEkdahl/dotfiles.git
 
 1. Install [Homebrew](http://mxcl.github.com/homebrew/)
 
         ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 
-1. Configure OS X with sane defaults
+1. Configure OS X with sane defaults and restart your system.
 
         sh defaults
 
