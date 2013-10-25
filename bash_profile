@@ -12,6 +12,12 @@ alias ..='cd ..'
 alias .='open .'
 alias git='hub'
 
+# chruby
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+
+# heroku
+PATH="/usr/local/heroku/bin:$PATH"
+
 remove_DS_Store()
 {
     find . -name '*.DS_Store' -type f -delete

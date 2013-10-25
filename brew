@@ -1,0 +1,17 @@
+brew install unrar
+brew install hub
+brew install wget --enable-iri
+
+# TODO: install cask commands
+
+brew cask install sublime-text-3
+brew cask install beamer
+brew cask install google-drive
+brew cask install google-chrome
+brew cask install transmission
+brew cask install transmit
+brew cask install spotify
+brew cask install virtualbox
+brew cask install vagrant
+brew cask install vlc
+brew cask install heroku-toolbelt
