@@ -1,5 +1,5 @@
 export PS1='\w `git branch 2> /dev/null | grep -e ^* | sed -E  s/^\\\\\*\ \(.+\)$/\(\\\\\1\)\ /`'
-export EDITOR='subl -w'
+# export EDITOR='subl -w'
 
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US"
@@ -14,9 +14,12 @@ alias git='hub'
 
 # chruby
 source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/auto.sh
 
 # heroku
 PATH="/usr/local/heroku/bin:$PATH"
+
+eval "$(direnv hook $0)"
 
 remove_DS_Store()
 {
@@ -26,6 +29,10 @@ remove_DS_Store()
 # cd into whatever is the forefront Finder window.
 cdf() {  # short for cdfinder
   cd "`osascript -e 'tell app "Finder" to POSIX path of (insertion location as alias)'`"
+}
+
+beep() {
+  printf \\a
 }
 
 extract()
@@ -47,6 +54,10 @@ extract()
      else
          echo "'$1' is not a valid file"
      fi
+}
+
+function cleandownloads() {
+  find ~/Downloads/ -ctime +14 -print0 | xargs -0 rm -rf
 }
 
 # Create a new directory and enter it
