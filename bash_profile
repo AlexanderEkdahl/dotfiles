@@ -1,5 +1,5 @@
 export PS1='\w `git branch 2> /dev/null | grep -e ^* | sed -E  s/^\\\\\*\ \(.+\)$/\(\\\\\1\)\ /`'
-# export EDITOR='subl -w'
+export EDITOR='subl -w'
 
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US"
@@ -21,6 +21,10 @@ PATH="/usr/local/heroku/bin:$PATH"
 
 eval "$(direnv hook $0)"
 
+# golang
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
 remove_DS_Store()
 {
     find . -name '*.DS_Store' -type f -delete
@@ -29,6 +33,14 @@ remove_DS_Store()
 # cd into whatever is the forefront Finder window.
 cdf() {  # short for cdfinder
   cd "`osascript -e 'tell app "Finder" to POSIX path of (insertion location as alias)'`"
+}
+
+remove_formatting() {
+  pbpaste | pbcopy
+}
+
+pman () {
+    man -t "${1}" | open -f -a /Applications/Preview.app
 }
 
 beep() {
