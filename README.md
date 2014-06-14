@@ -24,18 +24,17 @@ My OS X setup. Special thanks to whoever I stole it from.
 
 1. Symlink dotfiles
 
-        sh symlinks
+        ln -sf ~/dotfiles/bash_profile ~/.bash_profile
+        ln -sf ~/dotfiles/gitconfig ~/.gitconfig
 
 1. Install essential formulaes
 
-	sh brew
+        sh brew
 
-1. Symlink sublime-keymap and sublime-settings
+1. Install Atom Editor packages
 
-	ln -sf ~/dotfiles/sublime-settings "/Users/alexander/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
-	ln -sf ~/dotfiles/sublime-keymap "/Users/alexander/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap"
-	ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+        apm stars --user AlexanderEkdahl --install
 
 1. Install Heroku standalone
 
-	wget -qO- https://toolbelt.heroku.com/install.sh | sh
+	      wget -qO- https://toolbelt.heroku.com/install.sh | sh

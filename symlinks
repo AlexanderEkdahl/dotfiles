@@ -1,8 +1,0 @@
-# Bash
-ln -sf ~/dotfiles/bash_profile ~/.bash_profile
-
-# Ruby
-ln -sf ~/dotfiles/gemrc ~/.gemrc
-
-# Git
-ln -sf ~/dotfiles/gitconfig ~/.gitconfig

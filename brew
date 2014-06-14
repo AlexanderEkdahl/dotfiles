@@ -1,15 +1,22 @@
 brew install unrar
 brew install hub
 brew install wget --enable-iri
+brew install bazaar
+brew install curl
+brew install direnv
+brew install go
+brew install imagemagick
+brew install mercurial
+brew install node
+brew install redis
+brew install youtube-dl
 
-# TODO: install cask commands
+brew install caskroom/cask/brew-cask
 
-brew cask install sublime-text-3
+brew cask install atom
 brew cask install beamer
-brew cask install google-drive
 brew cask install google-chrome
 brew cask install transmission
-brew cask install transmit
 brew cask install spotify
 brew cask install virtualbox
 brew cask install vagrant

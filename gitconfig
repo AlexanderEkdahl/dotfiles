@@ -21,8 +21,6 @@
     untracked = cyan
 [alias]
     purr = pull --rebase
-[core]
-    editor = subl -w
 [github]
     user = alexander@ekdahl.io
 [push]
