@@ -1,0 +1,70 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+# An example CoffeeScript snippet to expand log to console.log:
+#
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
+
+'.source.go':
+  'New test':
+    'prefix': 'test'
+    'body': 'func Test$1(t *testing.T) {\n\t$2\n}'
+  'New method':
+    'prefix': 'method'
+    'body': 'func ($1 *$2) $3($4) $5{\n\t$6\n}'
+  'If':
+    'prefix': 'if'
+    'body': 'if $1 {\n\t$2\n}'
+  'Imports':
+    'prefix': 'import'
+    'body': 'import (\n\t"$1"\n)'
+  'For':
+    'prefix': 'for'
+    'body': 'for $1 {\n\t$2\n}'
+  'Struct':
+    'prefix': 'struct'
+    'body': 'type $1 struct {\n\t$2\n}'
+  'Print':
+    'prefix': 'print'
+    'body': 'fmt.Println($1)'
+  'Log':
+    'prefix': 'log'
+    'body': 'log.Println($1)'
+  'function enclosure in gorotuine':
+    'prefix': 'go'
+    'body': 'go func() {\n\t$1\n}()'
+
+'.text.html.basic':
+  'HTML':
+    'prefix': 'html'
+    'body': '<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset="utf-8">\n    <title>$1</title>\n  </head>\n  <body>\n    $2\n  <body>\n</html>'
+  'h1':
+    'prefix': 'h1'
+    'body': '<h1>$1</h1>'
+  'h2':
+    'prefix': 'h2'
+    'body': '<h2>$1</h2>'
+  'h3':
+    'prefix': 'h3'
+    'body': '<h3>$1</h3>'
+  'h4':
+    'prefix': 'h4'
+    'body': '<h4>$1</h4>'
+  'h5':
+    'prefix': 'h5'
+    'body': '<h5>$1</h5>'
+  'h6':
+    'prefix': 'h6'
+    'body': '<h6>$1</h6>'
+  'charset':
+    'prefix': 'charset'
+    'body': '<meta charset="utf-8">'
