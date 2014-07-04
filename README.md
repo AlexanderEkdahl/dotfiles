@@ -2,21 +2,18 @@
 
 My OS X setup. Special thanks to whoever I stole it from.
 
-**This setup is intended for Mac OSX - Mavericks.**
+**This setup is intended for Mac OSX - Yosemite.**
 
 ##Installation
 
-1. Install Command Line Tools for XCode
+1. Install [Homebrew](http://mxcl.github.com/homebrew/) and Command Line Tools for XCode
 
-        xcode-select --install
+        ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+        brew doctor
 
 1. Clone this repository into your home folder
 
-        git clone https://github.com/AlexanderEkdahl/dotfiles.git
-
-1. Install [Homebrew](http://mxcl.github.com/homebrew/)
-
-        ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+        git clone https://github.com/AlexanderEkdahl/dotfiles.git && cd dotfiles/
 
 1. Configure OS X with sane defaults and restart your system.
 
