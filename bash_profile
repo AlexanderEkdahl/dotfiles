@@ -3,23 +3,14 @@ export PS1='\w `git branch 2> /dev/null | grep -e ^* | sed -E  s/^\\\\\*\ \(.+\)
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US"
 
-# Homebrew
-export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-export PATH="/usr/local/bin:$PATH"
-
-# Heroku
-export PATH="/usr/local/heroku/bin:$PATH"
-
 alias ..='cd ..'
 alias .='open .'
 alias git='hub'
 shopt -s cdspell
 
-# chruby
-source /usr/local/opt/chruby/share/chruby/chruby.sh
-source /usr/local/opt/chruby/share/chruby/auto.sh
-
-eval "$(direnv hook $0)"
+if hash direnv 2>/dev/null; then
+  eval "$(direnv hook $0)"
+fi
 
 # Go
 export GOPATH=$HOME/go

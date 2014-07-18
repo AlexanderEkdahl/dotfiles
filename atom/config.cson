@@ -24,6 +24,7 @@
     'bookmarks'
     'color-picker'
     'autocomplete-plus'
+    'vim-mode'
   ]
   'themes': [
     'atom-dark-syntax'

@@ -19,10 +19,11 @@ My OS X setup. Special thanks to whoever I stole it from.
 
         sh defaults
 
-1. Symlink dotfiles
+1. Symlink files
 
         ln -sf ~/dotfiles/bash_profile ~/.bash_profile
         ln -sf ~/dotfiles/gitconfig ~/.gitconfig
+        ln -sf ~/dotfiles/gemrc ~/.gemrc
 
 1. Install essential formulaes
 
@@ -32,6 +33,10 @@ My OS X setup. Special thanks to whoever I stole it from.
 
         apm stars --user AlexanderEkdahl --install
 
-1. Install Heroku standalone
+1. Symling Atom configuration
 
-	      wget -qO- https://toolbelt.heroku.com/install.sh | sh
+        ln -sf ~/dotfiles/atom/config.cson ~/.atom/config.cson
+        ln -sf ~/dotfiles/atom/init.coffee ~/.atom/init.coffee
+        ln -sf ~/dotfiles/atom/keymap.cson ~/.atom/keymap.cson
+        ln -sf ~/dotfiles/atom/snippets.cson ~/.atom/snippets.cson
+        ln -sf ~/dotfiles/atom/styles.less ~/.atom/styles.less
