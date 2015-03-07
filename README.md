@@ -8,7 +8,7 @@ My OS X setup. Special thanks to whoever I stole it from.
 
 1. Install [Homebrew](http://mxcl.github.com/homebrew/) and Command Line Tools for XCode
 
-        ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+        ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
         brew doctor
 
 1. Clone this repository into your home folder
