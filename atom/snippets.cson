@@ -35,36 +35,10 @@
     'body': 'type $1 struct {\n\t$2\n}'
   'Print':
     'prefix': 'print'
-    'body': 'fmt.Println($1)'
+    'body': 'fmt.Printf("%s\n", $1)'
   'Log':
     'prefix': 'log'
     'body': 'log.Println($1)'
   'function enclosure in gorotuine':
     'prefix': 'go'
     'body': 'go func() {\n\t$1\n}()'
-
-'.text.html.basic':
-  'HTML':
-    'prefix': 'html'
-    'body': '<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset="utf-8">\n    <title>$1</title>\n  </head>\n  <body>\n    $2\n  <body>\n</html>'
-  'h1':
-    'prefix': 'h1'
-    'body': '<h1>$1</h1>'
-  'h2':
-    'prefix': 'h2'
-    'body': '<h2>$1</h2>'
-  'h3':
-    'prefix': 'h3'
-    'body': '<h3>$1</h3>'
-  'h4':
-    'prefix': 'h4'
-    'body': '<h4>$1</h4>'
-  'h5':
-    'prefix': 'h5'
-    'body': '<h5>$1</h5>'
-  'h6':
-    'prefix': 'h6'
-    'body': '<h6>$1</h6>'
-  'charset':
-    'prefix': 'charset'
-    'body': '<meta charset="utf-8">'

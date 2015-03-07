@@ -1,57 +1,45 @@
-'exception-reporting':
-  'userId': '2534520d-b803-a81c-3018-813511cd9a04'
-'release-notes':
-  'viewedVersion': '0.70.0'
-'welcome':
-  'showOnStartup': false
-'metrics':
-  'userId': '590baf78d97b19907653340c69ecccda5d565c5a'
-'editor':
-  'fontFamily': 'Courier'
-  'softWrap': true
-  'showIndentGuide': true
-  'showInvisibles': true
-  'fontSize': 20
-'core':
-  'disabledPackages': [
-    'welcome'
-    'metrics'
-    'release-notes'
-    'autocomplete'
-    'feedback'
-    'atom-runner'
-    'spell-check'
-    'bookmarks'
-    'color-picker'
-    'autocomplete-plus'
-    'vim-mode'
-  ]
-  'themes': [
-    'atom-dark-syntax'
-    'atom-dark-ui'
-  ]
-'autocomplete-plus':
-  'liveCompletion': true
-  'includeCompletionsFromAllBuffers': true
-  'autoActivationDelay': 0
-  'enableAutoActivation': false
-'markdown-preview':
-  'grammars': [
-    'source.gfm'
-    'source.litcoffee'
-    'text.plain'
-    'text.plain.null-grammar'
-  ]
-'tree-view':
-  'hideIgnoredNames': true
-'go-plus':
-  'lintOnSave': true
-  'syntaxCheckOnSave': true
-  'gofmtPath': '$GOPATH/bin/goimports'
-  'goPath': '$GOPATH'
-  'goExecutablePath': '/usr/local/bin/go'
-'go-oracle':
-  'goPath': '$GOPATH'
-'autosave': {}
-'bracket-matcher': {}
-'vim-mode': {}
+"*":
+  "exception-reporting":
+    userId: "2534520d-b803-a81c-3018-813511cd9a04"
+  "release-notes":
+    viewedVersion: "0.70.0"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "590baf78d97b19907653340c69ecccda5d565c5a"
+  editor:
+    fontFamily: "Source Code Pro"
+    showIndentGuide: true
+    softWrap: true
+    invisibles: {}
+  core:
+    disabledPackages: [
+      "welcome"
+      "metrics"
+      "release-notes"
+      "feedback"
+      "atom-runner"
+      "spell-check"
+      "bookmarks"
+      "color-picker"
+      "vim-mode"
+      "keybinding-resolver"
+    ]
+    themes: [
+      "atom-light-syntax"
+      "atom-light-ui"
+    ]
+  "markdown-preview":
+    grammars: [
+      "source.gfm"
+      "source.litcoffee"
+      "text.plain"
+      "text.plain.null-grammar"
+    ]
+  "tree-view":
+    hideIgnoredNames: true
+  "go-plus":
+    environmentOverridesConfiguration: false
+    goPath: "/Users/alexanderekdahl/go"
+  jumpy:
+    highContrast: true
