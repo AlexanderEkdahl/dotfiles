@@ -40,3 +40,8 @@ My OS X setup. Special thanks to whoever I stole it from.
         ln -sf ~/dotfiles/atom/keymap.cson ~/.atom/keymap.cson
         ln -sf ~/dotfiles/atom/snippets.cson ~/.atom/snippets.cson
         ln -sf ~/dotfiles/atom/styles.less ~/.atom/styles.less
+
+1. Setup Annex
+
+        git clone git@github.com:AlexanderEkdahl/annex.git ~/annex && cd ~/annex
+        git annex init "air"
