@@ -9,7 +9,7 @@ brew install mercurial
 brew install node
 brew install youtube-dl
 brew install ruby
-brew install dicnet.zip
+brew install git-annex
 
 brew install postgres
 ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents # To have launchd start postgresql at login:
