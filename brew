@@ -1,6 +1,6 @@
 brew install unrar
 brew install hub
-brew install wget --enable-iri
+brew install wget --with-iri
 brew install curl
 brew install direnv
 brew install go
