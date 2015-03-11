@@ -45,3 +45,7 @@ My OS X setup. Special thanks to whoever I stole it from.
 
         git clone git@github.com:AlexanderEkdahl/annex.git ~/annex && cd ~/annex
         git annex init "air"
+        
+1. Install Source Code Pro
+
+        https://github.com/adobe-fonts/source-code-pro
