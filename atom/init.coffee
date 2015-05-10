@@ -17,6 +17,6 @@ atom.workspaceView.eachEditorView (editorView) ->
 atom.workspaceView.command 'swap-theme', ->
   tm = atom.themes
   if tm.getActiveNames().indexOf("atom-light-syntax") > 0
-    tm.setEnabledThemes(["atom-dark-syntax", "atom-dark-ui"])
+    tm.setEnabledThemes(["atom-dark-syntax", "one-dark-ui"])
   else
-    tm.setEnabledThemes(["atom-light-syntax", "atom-light-ui"])
+    tm.setEnabledThemes(["atom-light-syntax", "one-light-ui"])

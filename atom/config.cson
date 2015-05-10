@@ -8,10 +8,10 @@
   metrics:
     userId: "590baf78d97b19907653340c69ecccda5d565c5a"
   editor:
-    fontFamily: "Source Code Pro"
     showIndentGuide: true
     softWrap: true
     invisibles: {}
+    fontFamily: "Source Code Pro"
   core:
     disabledPackages: [
       "welcome"
@@ -27,7 +27,7 @@
     ]
     themes: [
       "atom-light-syntax"
-      "atom-light-ui"
+      "one-light-ui"
     ]
   "markdown-preview":
     grammars: [
@@ -43,3 +43,4 @@
     goPath: "/Users/alexanderekdahl/go"
   jumpy:
     highContrast: true
+  minimap: {}
