@@ -10,7 +10,8 @@
   editor:
     showIndentGuide: true
     softWrap: true
-    invisibles: {}
+    invisibles:
+      {}
     fontFamily: "Source Code Pro"
   core:
     disabledPackages: [
@@ -22,12 +23,15 @@
       "spell-check"
       "bookmarks"
       "color-picker"
-      "vim-mode"
       "keybinding-resolver"
+      "emmet"
+      "minimap"
+      "autosave"
+      "regex-railroad-diagram"
     ]
     themes: [
-      "atom-light-syntax"
-      "one-light-ui"
+      "atom-dark-syntax"
+      "one-dark-ui"
     ]
   "markdown-preview":
     grammars: [
@@ -36,11 +40,23 @@
       "text.plain"
       "text.plain.null-grammar"
     ]
-  "tree-view":
-    hideIgnoredNames: true
   "go-plus":
     environmentOverridesConfiguration: false
     goPath: "/Users/alexanderekdahl/go"
+    suppressBuiltinAutocompleteProvider: false
   jumpy:
     highContrast: true
-  minimap: {}
+  minimap:
+    {}
+  autosave:
+    {}
+  tabs:
+    alwaysShowTabBar: false
+  "file-icons":
+    onChanges: true
+    forceShow: true
+  "autocomplete-plus":
+    confirmCompletion: "tab"
+    minimumWordLength: 2
+  "one-light-ui":
+    {}

@@ -8,15 +8,9 @@
 
 path = require 'path'
 
-atom.workspaceView.eachEditorView (editorView) ->
-  editor = editorView.getEditor()
-  if path.extname(editor.getPath()) is '.md'
-    editor.setSoftWrap(true)
-
-# Switches between Atom Light and Atm Dark themes
-atom.workspaceView.command 'swap-theme', ->
+atom.commands.add 'atom-text-editor', 'swap-theme': (event) ->
   tm = atom.themes
-  if tm.getActiveNames().indexOf("atom-light-syntax") > 0
-    tm.setEnabledThemes(["atom-dark-syntax", "one-dark-ui"])
+  if tm.getActiveThemeNames().indexOf("atom-light-syntax") > 0
+    atom.config.set('core.themes', ["atom-dark-syntax", "one-dark-ui"])
   else
-    tm.setEnabledThemes(["atom-light-syntax", "one-light-ui"])
+    atom.config.set('core.themes', ["atom-light-syntax", "one-light-ui"])
