@@ -10,9 +10,9 @@
   editor:
     showIndentGuide: true
     softWrap: true
-    invisibles:
-      {}
+    invisibles: {}
     fontFamily: "Source Code Pro"
+    fontSize: 15
   core:
     disabledPackages: [
       "welcome"
@@ -22,16 +22,14 @@
       "atom-runner"
       "spell-check"
       "bookmarks"
-      "color-picker"
       "keybinding-resolver"
-      "emmet"
-      "minimap"
       "autosave"
-      "regex-railroad-diagram"
+      "status-bar"
+      "chary-tree-view"
     ]
     themes: [
-      "atom-dark-syntax"
-      "one-dark-ui"
+      "atom-light-syntax"
+      "one-light-ui"
     ]
   "markdown-preview":
     grammars: [
@@ -44,12 +42,12 @@
     environmentOverridesConfiguration: false
     goPath: "/Users/alexanderekdahl/go"
     suppressBuiltinAutocompleteProvider: false
+    lintOnSave: false
+    getMissingTools: false
   jumpy:
     highContrast: true
-  minimap:
-    {}
-  autosave:
-    {}
+  minimap: {}
+  autosave: {}
   tabs:
     alwaysShowTabBar: false
   "file-icons":
@@ -58,5 +56,8 @@
   "autocomplete-plus":
     confirmCompletion: "tab"
     minimumWordLength: 2
-  "one-light-ui":
-    {}
+  "one-light-ui": {}
+  "vim-surround": {}
+  "status-bar": {}
+  "tree-view": {}
+  "vim-mode": {}

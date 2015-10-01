@@ -15,6 +15,9 @@
 #
 
 '.source.go':
+  'Print':
+    'prefix': 'print'
+    'body': 'fmt.Println($1)'
   'New test':
     'prefix': 'test'
     'body': 'func Test$1(t *testing.T) {\n\t$2\n}'
@@ -33,9 +36,6 @@
   'Struct':
     'prefix': 'struct'
     'body': 'type $1 struct {\n\t$2\n}'
-  'Print':
-    'prefix': 'print'
-    'body': 'fmt.Printf("%s\\n", $1)'
   'Log':
     'prefix': 'log'
     'body': 'log.Println($1)'
