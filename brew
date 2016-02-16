@@ -25,3 +25,8 @@ brew cask install spotify
 brew cask install virtualbox
 brew cask install vagrant
 brew cask install vlc
+
+brew tap caskroom/fonts
+brew cask install font-source-code-pro
+brew cask install font-lato
+brew cask install font-merriweather

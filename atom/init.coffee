@@ -6,7 +6,7 @@
 
 path = require 'path'
 
-atom.commands.add 'atom-text-editor', 'user:swap-theme': (event) ->
+atom.commands.add 'body', 'user:swap-theme': (event) ->
   tm = atom.themes
   if tm.getActiveThemeNames().indexOf("atom-light-syntax") > 0
     atom.config.set('core.themes', ["atom-dark-syntax", "one-dark-ui"])

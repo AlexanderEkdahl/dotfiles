@@ -6,8 +6,6 @@ export LANG="en_US"
 alias ..='cd ..'
 alias .='open .'
 alias git='hub'
-alias server=http-watcher
-shopt -s cdspell
 
 if hash direnv 2>/dev/null; then
   eval "$(direnv hook $0)"
@@ -25,14 +23,6 @@ function remove_DS_Store()
 # cd into whatever is the forefront Finder window.
 function cdf() {  # short for cdfinder
   cd "`osascript -e 'tell app "Finder" to POSIX path of (insertion location as alias)'`"
-}
-
-function fixairplay() {
-  sudo pkill coreaudiod
-}
-
-function beep() {
-  printf \\a
 }
 
 function extract {
@@ -85,4 +75,3 @@ function fs() {
         du $arg .[^.]* *
     fi
 }
-

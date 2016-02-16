@@ -1,18 +1,8 @@
 "*":
-  "exception-reporting":
-    userId: "2534520d-b803-a81c-3018-813511cd9a04"
-  "release-notes":
-    viewedVersion: "0.70.0"
-  welcome:
-    showOnStartup: false
-  metrics:
-    userId: "590baf78d97b19907653340c69ecccda5d565c5a"
-  editor:
-    showIndentGuide: true
-    softWrap: true
-    invisibles: {}
-    fontFamily: "Source Code Pro"
-    fontSize: 15
+  "autocomplete-plus":
+    confirmCompletion: "tab"
+    minimumWordLength: 2
+  autosave: {}
   core:
     disabledPackages: [
       "welcome"
@@ -26,11 +16,35 @@
       "autosave"
       "status-bar"
       "chary-tree-view"
+      "emmet"
+      "language-elixir"
+      "language-rust"
+      "language-scala"
+      "go-plus"
     ]
     themes: [
       "atom-light-syntax"
       "one-light-ui"
     ]
+  editor:
+    fontFamily: "Source Code Pro"
+    fontSize: 17
+    invisibles: {}
+    showIndentGuide: true
+    softWrap: true
+  "exception-reporting":
+    userId: "2534520d-b803-a81c-3018-813511cd9a04"
+  "file-icons":
+    forceShow: true
+    onChanges: true
+  "go-plus":
+    environmentOverridesConfiguration: false
+    getMissingTools: false
+    goPath: "/Users/alexanderekdahl/go"
+    lintOnSave: false
+    suppressBuiltinAutocompleteProvider: false
+  jumpy:
+    highContrast: true
   "markdown-preview":
     grammars: [
       "source.gfm"
@@ -38,26 +52,17 @@
       "text.plain"
       "text.plain.null-grammar"
     ]
-  "go-plus":
-    environmentOverridesConfiguration: false
-    goPath: "/Users/alexanderekdahl/go"
-    suppressBuiltinAutocompleteProvider: false
-    lintOnSave: false
-    getMissingTools: false
-  jumpy:
-    highContrast: true
+  metrics:
+    userId: "590baf78d97b19907653340c69ecccda5d565c5a"
   minimap: {}
-  autosave: {}
+  "one-light-ui": {}
+  "release-notes":
+    viewedVersion: "0.70.0"
+  "status-bar": {}
   tabs:
     alwaysShowTabBar: false
-  "file-icons":
-    onChanges: true
-    forceShow: true
-  "autocomplete-plus":
-    confirmCompletion: "tab"
-    minimumWordLength: 2
-  "one-light-ui": {}
-  "vim-surround": {}
-  "status-bar": {}
   "tree-view": {}
   "vim-mode": {}
+  "vim-surround": {}
+  welcome:
+    showOnStartup: false

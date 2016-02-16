@@ -2,7 +2,7 @@
 
 My OS X setup. Special thanks to whoever I stole it from.
 
-**This setup is intended for Mac OSX - Yosemite.**
+**This setup is intended for Mac OSX - El Capitan.**
 
 ##Installation
 
@@ -15,7 +15,7 @@ My OS X setup. Special thanks to whoever I stole it from.
 
         git clone https://github.com/AlexanderEkdahl/dotfiles.git && cd dotfiles/
 
-1. Configure OS X with sane defaults and restart your system.
+1. Configure OS X with saner defaults and restart your system.
 
         sh defaults
 
@@ -33,7 +33,7 @@ My OS X setup. Special thanks to whoever I stole it from.
 
         apm stars --user AlexanderEkdahl --install
 
-1. Symling Atom configuration
+1. Symlink Atom configuration
 
         ln -sf ~/dotfiles/atom/config.cson ~/.atom/config.cson
         ln -sf ~/dotfiles/atom/init.coffee ~/.atom/init.coffee
@@ -45,7 +45,5 @@ My OS X setup. Special thanks to whoever I stole it from.
 
         git clone git@github.com:AlexanderEkdahl/annex.git ~/annex && cd ~/annex
         git annex init "air"
-        
-1. Install Source Code Pro
-
-        https://github.com/adobe-fonts/source-code-pro
+        # Retrieve & store AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY in .envrc
+        git annex enableremote s3

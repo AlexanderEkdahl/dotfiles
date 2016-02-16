@@ -26,3 +26,6 @@
 
 'body':
   'shift-cmd-N': 'tree-view:add-file'
+
+'.platform-darwin':
+  'cmd-y': 'tree-view:toggle'
