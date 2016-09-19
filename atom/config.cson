@@ -1,7 +1,4 @@
 "*":
-  "autocomplete-plus":
-    confirmCompletion: "tab"
-    minimumWordLength: 2
   autosave: {}
   core:
     disabledPackages: [
@@ -16,35 +13,19 @@
       "autosave"
       "status-bar"
       "chary-tree-view"
-      "emmet"
-      "language-elixir"
-      "language-rust"
-      "language-scala"
-      "go-plus"
     ]
+    packagesWithKeymapsDisabled: []
     themes: [
       "atom-light-syntax"
       "one-light-ui"
     ]
   editor:
     fontFamily: "Source Code Pro"
-    fontSize: 17
     invisibles: {}
     showIndentGuide: true
     softWrap: true
   "exception-reporting":
     userId: "2534520d-b803-a81c-3018-813511cd9a04"
-  "file-icons":
-    forceShow: true
-    onChanges: true
-  "go-plus":
-    environmentOverridesConfiguration: false
-    getMissingTools: false
-    goPath: "/Users/alexanderekdahl/go"
-    lintOnSave: false
-    suppressBuiltinAutocompleteProvider: false
-  jumpy:
-    highContrast: true
   "markdown-preview":
     grammars: [
       "source.gfm"
@@ -63,6 +44,5 @@
     alwaysShowTabBar: false
   "tree-view": {}
   "vim-mode": {}
-  "vim-surround": {}
   welcome:
     showOnStartup: false
