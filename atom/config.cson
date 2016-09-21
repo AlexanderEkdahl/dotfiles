@@ -20,7 +20,7 @@
       "one-light-ui"
     ]
   editor:
-    fontFamily: "Source Code Pro"
+    fontFamily: "SF Mono"
     invisibles: {}
     showIndentGuide: true
     softWrap: true
