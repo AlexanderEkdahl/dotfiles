@@ -9,14 +9,11 @@ brew install mercurial
 brew install node
 brew install youtube-dl
 brew install ruby
-brew install git-annex
 brew install postgres
 brew install tor
 
 brew tap caskroom/cask
-brew install brew-cask
 
-brew cask install atom
 brew cask install beamer
 brew cask install google-chrome
 brew cask install transmission
