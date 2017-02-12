@@ -14,12 +14,8 @@ brew install tor
 
 brew tap caskroom/cask
 
-brew cask install beamer
 brew cask install google-chrome
 brew cask install transmission
-brew cask install spotify
-brew cask install virtualbox
-brew cask install vagrant
 brew cask install vlc
 
 brew tap caskroom/fonts

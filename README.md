@@ -1,8 +1,8 @@
 #dotfiles
 
-My OS X setup. Special thanks to whoever I stole it from.
+My macOS setup. 
 
-**This setup is intended for Mac OSX - El Capitan.**
+**This setup is intended for Mac OSX - El Sierra.**
 
 ##Installation
 
@@ -15,7 +15,7 @@ My OS X setup. Special thanks to whoever I stole it from.
 
         git clone https://github.com/AlexanderEkdahl/dotfiles.git && cd dotfiles/
 
-1. Configure OS X with saner defaults and restart your system.
+1. Configure macOS with saner defaults and restart your system.
 
         sh defaults
 
@@ -29,21 +29,3 @@ My OS X setup. Special thanks to whoever I stole it from.
 
         sh brew
 
-1. Install Atom Editor packages
-
-        apm stars --user AlexanderEkdahl --install
-
-1. Symlink Atom configuration
-
-        ln -sf ~/dotfiles/atom/config.cson ~/.atom/config.cson
-        ln -sf ~/dotfiles/atom/init.coffee ~/.atom/init.coffee
-        ln -sf ~/dotfiles/atom/keymap.cson ~/.atom/keymap.cson
-        ln -sf ~/dotfiles/atom/snippets.cson ~/.atom/snippets.cson
-        ln -sf ~/dotfiles/atom/styles.less ~/.atom/styles.less
-
-1. Setup Annex
-
-        git clone git@github.com:AlexanderEkdahl/annex.git ~/annex && cd ~/annex
-        git annex init "air"
-        # Retrieve & store AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY in .envrc
-        git annex enableremote s3

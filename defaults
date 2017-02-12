@@ -89,11 +89,10 @@ defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
 # Add the keyboard shortcut ⌘ + Enter to send an email in Mail.app
 defaults write com.apple.mail NSUserKeyEquivalents -dict-add "Send" "@\\U21a9"
 
-# Hide and unhide OS X home folders
+# Hide and unhide macOS home folders
 chflags nohidden ~/Library
 chflags hidden ~/Movies
 chflags hidden ~/Music
-chflags hidden ~/Documents
 chflags hidden ~/Public
 chflags hidden ~/Pictures
 
