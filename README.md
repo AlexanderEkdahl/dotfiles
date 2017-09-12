@@ -1,10 +1,10 @@
-#dotfiles
+# dotfiles
 
 My macOS setup. 
 
 **This setup is intended for Mac OSX - El Sierra.**
 
-##Installation
+## Installation
 
 1. Install [Homebrew](http://mxcl.github.com/homebrew/) and Command Line Tools for XCode
 
