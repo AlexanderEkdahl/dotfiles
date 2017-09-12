@@ -13,7 +13,7 @@ My macOS setup.
 
 1. Clone this repository into your home folder
 
-        git clone https://github.com/AlexanderEkdahl/dotfiles.git && cd dotfiles/
+        git clone https://github.com/AlexanderEkdahl/dotfiles.git ~/dotfiles && cd ~/dotfiles
 
 1. Configure macOS with saner defaults and restart your system.
 
