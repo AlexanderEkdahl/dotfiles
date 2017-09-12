@@ -2,7 +2,7 @@
 
 My macOS setup. 
 
-**This setup is intended for Mac OSX - El Sierra.**
+**This setup is intended for macOS - Sierra.**
 
 ## Installation
 
@@ -13,11 +13,11 @@ My macOS setup.
 
 1. Clone this repository into your home folder
 
-        git clone https://github.com/AlexanderEkdahl/dotfiles.git ~/dotfiles && cd ~/dotfiles
+        git clone https://github.com/AlexanderEkdahl/dotfiles.git ~/dotfiles
 
 1. Configure macOS with saner defaults and restart your system.
 
-        sh defaults
+        sh ~/dotfiles/defaults
 
 1. Symlink files
 
@@ -27,5 +27,5 @@ My macOS setup.
 
 1. Install essential formulaes
 
-        sh brew
+        sh ~/dotfiles/brew
 
