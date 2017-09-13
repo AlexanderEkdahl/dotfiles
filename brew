@@ -1,6 +1,6 @@
 brew install unrar
 brew install hub
-brew install wget --with-iri
+brew install wget
 brew install curl
 brew install go
 brew install direnv
@@ -12,11 +12,11 @@ brew install ruby
 brew install postgres
 brew install tor
 
-brew tap caskroom/cask
-
 brew cask install google-chrome
 brew cask install transmission
 brew cask install vlc
+brew cask install visual-studio-code
+brew cask install spotify
 
 brew tap caskroom/fonts
 brew cask install font-source-code-pro
