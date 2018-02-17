@@ -1,6 +1,6 @@
 # dotfiles
 
-My macOS setup. 
+My macOS setup.
 
 **This setup is intended for macOS - Sierra.**
 
@@ -19,9 +19,16 @@ My macOS setup.
 
         sh ~/dotfiles/defaults
 
+1. Configure bash
+
+        brew install bash
+        echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;
+        chsh -s /usr/local/bin/bash;
+        brew install bash-completion@2
+        echo 'source ~/dotfiles/bash_profile' > ~/.bash_profile
+
 1. Symlink files
 
-        ln -sf ~/dotfiles/bash_profile ~/.bash_profile
         ln -sf ~/dotfiles/gitconfig ~/.gitconfig
         ln -sf ~/dotfiles/gemrc ~/.gemrc
 
