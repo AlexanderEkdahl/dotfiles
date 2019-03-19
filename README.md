@@ -2,7 +2,7 @@
 
 My macOS setup.
 
-**This setup is intended for macOS - Sierra.**
+**This setup is intended for macOS - Mojave.**
 
 ## Installation
 
