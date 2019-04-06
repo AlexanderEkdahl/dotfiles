@@ -30,7 +30,6 @@ My macOS setup.
 1. Symlink files
 
         ln -sf ~/dotfiles/gitconfig ~/.gitconfig
-        ln -sf ~/dotfiles/gemrc ~/.gemrc
 
 1. Install essential formulaes
 
