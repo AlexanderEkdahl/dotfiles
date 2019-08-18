@@ -1,4 +1,4 @@
-export PS1='\w `git branch 2> /dev/null | grep -e ^* | sed -E  s/^\\\\\*\ \(.+\)$/\(\\\\\1\)\ /`'
+export PS1='\D{%T} \w `git branch 2> /dev/null | grep -e ^* | sed -E  s/^\\\\\*\ \(.+\)$/\(\\\\\1\)\ /`\n'
 
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US"
