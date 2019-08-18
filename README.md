@@ -2,7 +2,7 @@
 
 My macOS setup.
 
-**This setup is intended for macOS - Sierra.**
+**This setup is intended for macOS - Mojave.**
 
 ## Installation
 
@@ -35,4 +35,3 @@ My macOS setup.
 1. Install essential formulaes
 
         sh ~/dotfiles/brew
-
