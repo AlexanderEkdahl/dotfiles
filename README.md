@@ -8,7 +8,7 @@ My macOS setup.
 
 1. Install [Homebrew](http://mxcl.github.com/homebrew/) and Command Line Tools for XCode
 
-        ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+        /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
         brew doctor
 
 1. Clone this repository into your home folder
@@ -30,7 +30,6 @@ My macOS setup.
 1. Symlink files
 
         ln -sf ~/dotfiles/gitconfig ~/.gitconfig
-        ln -sf ~/dotfiles/gemrc ~/.gemrc
 
 1. Install essential formulaes
 

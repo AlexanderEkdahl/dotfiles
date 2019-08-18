@@ -14,3 +14,5 @@
 	type = cat-file -t
 	dump = cat-file -p
 	fix = commit --amend --no-edit
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
