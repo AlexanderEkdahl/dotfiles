@@ -1,6 +1,5 @@
 {
   "editor.folding": false,
-  "editor.fontFamily": "'SF Mono'",
   "editor.fontSize": 14,
   "editor.lineNumbers": "off",
   "editor.minimap.enabled": false,
@@ -23,14 +22,11 @@
   "workbench.activityBar.visible": false,
   "window.newWindowDimensions": "fullscreen",
   "window.restoreFullscreen": true,
-  "search.location": "panel",
   "workbench.editor.showIcons": false,
   "workbench.iconTheme": null,
   "editor.highlightActiveIndentGuide": false,
   "terminal.integrated.fontSize": 13,
   "search.smartCase": true,
-  "go.testTimeout": "3s",
-  "go.coverOnSingleTest": true,
   "workbench.panel.defaultLocation": "right",
   "editor.tabCompletion": "on",
   "typescript.suggest.completeFunctionCalls": true,
@@ -60,9 +56,6 @@
       "comments": "#717c96"
     }
   },
-  "go.testFlags": [
-    "-v"
-  ],
   "editor.occurrencesHighlight": false,
   "editor.parameterHints.cycle": true,
   "diffEditor.renderIndicators": false,

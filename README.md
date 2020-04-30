@@ -2,11 +2,11 @@
 
 My macOS setup.
 
-**This setup is intended for macOS - Mojave.**
+**This setup is intended for macOS - Catalina.**
 
 ## Installation
 
-1. Install [Homebrew](http://mxcl.github.com/homebrew/) and Command Line Tools for XCode
+1. Install [Homebrew](https://mxcl.github.com/homebrew/) and Command Line Tools for XCode
 
         /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
         brew doctor
@@ -19,14 +19,6 @@ My macOS setup.
 
         sh ~/dotfiles/defaults
 
-1. Configure bash
-
-        brew install bash
-        echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;
-        chsh -s /usr/local/bin/bash;
-        brew install bash-completion@2
-        echo 'source ~/dotfiles/bash_profile' > ~/.bash_profile
-
 1. Symlink files
 
         ln -sf ~/dotfiles/gitconfig ~/.gitconfig
@@ -36,3 +28,12 @@ My macOS setup.
 1. Install essential formulaes
 
         sh ~/dotfiles/brew
+
+1. Remove macOS keybinding for <code>⌘+`</code> and map to <code>ctrl</code>
+
+1. Install Visual Studio Code packages
+
+        code --install-extension arcticicestudio.nord-visual-studio-code
+        code --install-extension ms-vscode-remote.remote-ssh
+
+1. Set-up SSH keys

@@ -68,5 +68,18 @@
   {
     "key": "numpad_multiply",
     "command": "workbench.action.tasks.reRunTask"
+  },
+  {
+    "key": "alt+a",
+    "command": "workbench.action.navigateBack"
+  },
+  {
+    "key": "alt+s",
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "alt+d",
+    "command": "workbench.action.navigateForward"
   }
 ]
