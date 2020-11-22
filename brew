@@ -1,16 +1,7 @@
-brew install unrar
-brew install hub
 brew install wget
 brew install curl
 brew install go
-brew install direnv
-brew install imagemagick
-brew install mercurial
-brew install node
 brew install youtube-dl
-brew install ruby
-brew install postgres
-brew install tor
 
 brew cask install google-chrome
 brew cask install transmission
@@ -18,7 +9,3 @@ brew cask install vlc
 brew cask install visual-studio-code
 brew cask install spotify
 
-brew tap caskroom/fonts
-brew cask install font-source-code-pro
-brew cask install font-lato
-brew cask install font-merriweather

@@ -2,7 +2,7 @@
 
 My macOS setup.
 
-**This setup is intended for macOS - Catalina.**
+**This setup is intended for macOS - Big Sur.**
 
 ## Installation
 
@@ -19,11 +19,16 @@ My macOS setup.
 
         sh ~/dotfiles/defaults
 
+1. Install and configure `bash`.
+
+        brew install bash
+        sudo echo /usr/local/bin/bash >> /etc/shells
+        chsh -s /usr/local/bin/bash # Must logout/login for changes to take effect
+
 1. Symlink files
 
         ln -sf ~/dotfiles/gitconfig ~/.gitconfig
-        ln -sf ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
-        ln -sf ~/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+        ln -sf ~/dotfiles/bash_profile ~/.bash_profile
 
 1. Install essential formulaes
 
@@ -31,9 +36,8 @@ My macOS setup.
 
 1. Remove macOS keybinding for <code>⌘+`</code> and map to <code>ctrl</code>
 
-1. Install Visual Studio Code packages
+1. [Generate and configure SSH keys](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-        code --install-extension arcticicestudio.nord-visual-studio-code
-        code --install-extension ms-vscode-remote.remote-ssh
+1. Configure [Visual Studio Code Settings Sync](https://code.visualstudio.com/docs/editor/settings-sync)
 
-1. Set-up SSH keys
+1. Configure Tailscale
