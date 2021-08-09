@@ -6,9 +6,9 @@ My macOS setup.
 
 ## Installation
 
-1. Install [Homebrew](https://mxcl.github.com/homebrew/) and Command Line Tools for XCode
+1. Install [Homebrew](https://brew.sh/) and Command Line Tools for XCode
 
-        /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
         brew doctor
 
 1. Clone this repository into your home folder
