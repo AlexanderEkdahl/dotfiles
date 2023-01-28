@@ -4,8 +4,6 @@ brew install go
 brew install youtube-dl
 
 brew cask install google-chrome
-brew cask install transmission
 brew cask install vlc
 brew cask install visual-studio-code
 brew cask install spotify
-

@@ -7,11 +7,11 @@ My macOS setup.
 ## Installation
 
 1. Install [Homebrew](https://brew.sh/) and Command Line Tools for XCode
+2. Verify `brew` installation:
 
-        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
         brew doctor
 
-1. Clone this repository into your home folder
+3. Clone this repository into your home folder
 
         git clone https://github.com/AlexanderEkdahl/dotfiles.git ~/dotfiles
 
